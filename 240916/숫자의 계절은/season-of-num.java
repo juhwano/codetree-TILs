@@ -9,7 +9,7 @@ public class Main {
         }else if(n <= 5){
             System.out.println("Spring");
         }else if(n <= 8){
-            System.out.println("Summber");
+            System.out.println("Summer");
         }else{
             System.out.println("Fall");
         }
