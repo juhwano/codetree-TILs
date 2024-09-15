@@ -6,14 +6,10 @@ public class Main {
         int mid = sc.nextInt();
         int end = sc.nextInt();
         
-        if (mid >= 90){
-            if (end >= 95){
-                System.out.println("100000");
-            }else if(end >= 90){
-                System.out.println("50000");
-            }else{
-                System.out.println("0");
-            }
+        if (mid >= 90 && end >= 95){
+            System.out.println("100000");
+        }else if(mid >= 90 && end >= 90){
+            System.out.println("50000");        
         }else{
             System.out.println("0");
         }
