@@ -4,11 +4,11 @@ public class Main {
         // 여기에 코드를 작성해주세요.
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int cnt = 0;
+        int sumVal = 0;
         for (int i = 1; i<=n; i++){
             int num = sc.nextInt();
-            if (num % 2 == 1 && num% 3 == 0) cnt++;
+            if (num % 2 == 1 && num% 3 == 0) sumVal+=i;
         }
-        System.out.print(cnt);
+        System.out.print(sumVal);
     }
 }
