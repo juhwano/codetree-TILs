@@ -6,15 +6,12 @@ public class Main {
         int n = sc.nextInt();
         int a=0,b=0,c=0;
         for (int i = 1; i<=n; i++){
-            if (i % 2 == 0) a++;
-            if (i % 3 == 0) b++;
-            if (i % 2 == 0 && i % 3 == 0){
-                a--;
-            }
-            if (i % 12 == 0) {
+            if (i % 12 == 0){
                 c++;
-                a--;
-                b--;
+            }else if(i % 3 == 0){
+                b++;
+            }else if(i % 2 == 0){
+                a++;
             }
         }
         System.out.printf("%d %d %d",a,b,c);
