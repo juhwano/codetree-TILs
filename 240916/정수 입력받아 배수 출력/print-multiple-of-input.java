@@ -4,8 +4,8 @@ public class Main {
         // 여기에 코드를 작성해주세요.
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        for (int i = 1; i <= 5; i++){
-            System.out.print(i*n + " ");
+        for (int i = 1; i <= 5 * n; i += n){
+            System.out.print(i + " ");
         }
         sc.close();
     }
