@@ -5,13 +5,14 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int cnt = 0;
-        for (int i =1; i<=n; i++){
+        int i = 1;
+        while (n > 1){
             n /= i;
-            if (n <= 1){
-                System.out.print(cnt);
-                break;
-            }
+            i++;
             cnt++;
         }
+        System.out.print(cnt);
+        sc.close();
+        
     }
 }
