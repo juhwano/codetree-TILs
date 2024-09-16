@@ -7,7 +7,7 @@ public class Main {
         int sumVal = 0;
         for (int i = 1; i<=n; i++){
             int num = sc.nextInt();
-            if (num % 2 == 1 && num% 3 == 0) sumVal+=i;
+            if (num % 2 == 1 && num% 3 == 0) sumVal+=num;
         }
         System.out.print(sumVal);
     }
