@@ -8,15 +8,15 @@ public class Main {
         int c = sc.nextInt();
         boolean cond = true;
         for (int i =a; i<=b; i++){
-            if (i % c != 0) {
+            if (i % c == 0) {
                 cond = false;
                 break;
             }
         }
         if (cond){
-            System.out.println("NO");
-        }else{
             System.out.println("YES");
+        }else{
+            System.out.println("NO");
         }
         
     }
