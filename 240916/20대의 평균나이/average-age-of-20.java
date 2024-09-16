@@ -3,16 +3,18 @@ public class Main {
     public static void main(String[] args) {
         // 여기에 코드를 작성해주세요.
         Scanner sc = new Scanner(System.in);
-        double cnt = 0;
+        int cnt = 0;
         int sum = 0;
         while (true){
             int age = sc.nextInt();
-            if (age >= 20 && age < 30){
-                sum+=age;
-                cnt++;
+            if (age >= 30 || age <= 19){
+                System.out.printf("%.2f", (double)sum /cnt);
+                break;
             }
-            break;
+            cnt++;
+            sum+=age;
         }
-        System.out.printf("%.2f", sum/cnt);
+        
+        
     }
 }
