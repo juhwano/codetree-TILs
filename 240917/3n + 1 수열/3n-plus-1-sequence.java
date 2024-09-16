@@ -6,10 +6,7 @@ public class Main {
         int n =sc.nextInt();
         int cnt = 0;
         while (true){
-            if (n == 1){
-                System.out.print(cnt);
-                break;
-            }
+            if (n == 1) break;
             if (n % 2 == 0){
                 n /= 2;
             }else{
@@ -17,5 +14,6 @@ public class Main {
             }
             cnt++;
         }
+        System.out.print(cnt);
     }
 }
