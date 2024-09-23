@@ -16,10 +16,10 @@ public class Main {
                 }
             }else{
             //하단
-                for (int k=0; k<i-2; k++){
+                for (int k=0; k<i-n+1; k++){
                     System.out.print(" ");
                 }
-                for (int k=n+2-i; k>0; k--){
+                for (int k=n+4-i; k>0; k--){
                     System.out.print("* ");
                 }
             }
