@@ -7,9 +7,6 @@ public class Main {
             for (int j=i*n-i; j>=0; j-=i){
                 System.out.print((i+j) +" ");
             }
-            // for (int j=0; j<i*n; j+=i){
-            //     System.out.print((i+j) +" ");
-            // }
             System.out.println();
         }
 
