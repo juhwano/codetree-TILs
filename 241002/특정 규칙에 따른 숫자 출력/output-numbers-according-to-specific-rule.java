@@ -10,12 +10,12 @@ public class Main {
                 if (j>i){
                     System.out.print("  ");
                 }else{
+                    System.out.print(cnt + " ");
+                    cnt++;
+                    
                     if (cnt==10){
                         cnt=1;
                     }
-                    System.out.print(cnt + " ");
-                    cnt++;
-
                 }
             }
             System.out.println();
