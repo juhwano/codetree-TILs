@@ -6,7 +6,7 @@ public class Main {
         int startNum = sc.nextInt();
         int endNum = sc.nextInt();
         int result=0;
-        for (int i=startNum; i<endNum; i++){
+        for (int i=startNum; i<=endNum; i++){
             //약수가 세개인 수
             int cnt = 0;
             for (int j=1; j<i+1; j++){
@@ -14,7 +14,7 @@ public class Main {
                     cnt++;
                 }
             }
-            if (cnt==3){
+            if (cnt == 3){
                 result++;
             }
         }
