@@ -7,17 +7,15 @@ public class Main {
         int cnt =0;
         for (int i=0; i<m; i++){
             int n = sc.nextInt();
-            while(n!=1){
+            while (n!=1){
                 if (n%2==0){
                     n /= 2;
                 }else{
-                    n = n*3 +1;
+                    n = 3*n+1;
                 }
                 cnt++;
             }
             System.out.println(cnt);
         }
-        
-        
     }
 }
