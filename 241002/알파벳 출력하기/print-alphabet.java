@@ -9,6 +9,9 @@ public class Main {
             for (int j=0; j<i+1; j++){
                 System.out.print((char)A);
                 A++;
+                if (A==96){
+                    A=65;
+                }
             }
             System.out.println();
         }
