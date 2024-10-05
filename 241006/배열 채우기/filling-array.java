@@ -11,6 +11,7 @@ public class Main {
                 idx = i;
                 break;
             }else{
+                idx = 10;
                 arr[i] = n;
             }
         }
