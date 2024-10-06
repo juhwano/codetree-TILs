@@ -6,13 +6,13 @@ public class Main {
         int[] arr = new int[10];
         int cnt = 0;
         int sum = 0;
+
         for (int i=0; i<10; i++){
-            int n = sc.nextInt();
-            if (n==0){
+            arr[i] = sc.nextInt();
+            if (arr[i]==0){
                 break;
             }
-            arr[i] = n;
-            sum += n;
+            sum += arr[i];
             cnt++;
         }
         double avg = (double) sum / cnt;
