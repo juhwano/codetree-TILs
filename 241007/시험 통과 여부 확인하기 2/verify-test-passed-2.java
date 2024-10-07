@@ -6,7 +6,7 @@ public class Main {
 
         int studentNum = sc.nextInt();
         int cnt =0;
-        for (int i=0; i<studentNum; i++){
+        for (int i=0; i<studentNum.length; i++){
             int[] scores = new int[4];
             int sum=0;
             
