@@ -10,7 +10,7 @@ public class Main {
             int[] scores = new int[4];
             int sum=0;
             
-            for (int j=0; j<scores.length; j++){
+            for (int j=0; j<4; j++){
                 scores[i] = sc.nextInt();
                 sum += scores[i];
             }
