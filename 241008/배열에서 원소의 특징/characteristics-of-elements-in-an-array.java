@@ -10,10 +10,10 @@ public class Main {
         int k=0;
         for (int j=0; j<arr.length; j++){
             if (arr[j]%3==0){
-                k=j;
+                System.out.print(arr[j-1]);
                 break;
             }
         }
-        System.out.print(arr[k-1]);
+        
     }
 }
