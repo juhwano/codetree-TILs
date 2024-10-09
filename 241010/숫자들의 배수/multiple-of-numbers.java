@@ -11,13 +11,14 @@ public class Main {
         }
         int cnt=0;
         for (int j=0; j<arr.length; j++){
+            if (cnt>2){
+                break;
+            }
             System.out.print(arr[j]+" ");
             if (arr[j]%5==0){
                 cnt++;
             }
-            if (cnt>2){
-                break;
-            }
+            
         }
     }
 }
