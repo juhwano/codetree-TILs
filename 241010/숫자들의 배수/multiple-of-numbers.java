@@ -12,7 +12,7 @@ public class Main {
         int cnt=0;
         for (int j=0; j<arr.length; j++){
             System.out.print(arr[j]+" ");
-            if (j%5==0){
+            if (arr[j]%5==0){
                 cnt++;
             }
             if (cnt>2){
